@@ -1,0 +1,29 @@
+#container{								/* div container = includes the whole structure of the body */
+	position: relative;
+	width: 85%;
+	margin: 0 auto;
+}
+
+#pageHeader{
+	background-color: #ecf0f1;			/* here I changed the color of the background in the header */
+}
+
+#pageHeader img{						/*set the position and size of the logo */
+	position: relative;
+	width: 400px;
+	height: 130px;
+	right: 4%;
+	top: 15px;
+
+}
+
+#pageHeader h2{							/*set the position of the text in the header */
+	position: relative;
+	text-align: center;
+	bottom: 85px;
+	left: 10%;
+}
+
+#navBar{
+
+}
