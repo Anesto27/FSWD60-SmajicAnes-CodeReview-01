@@ -1,7 +1,12 @@
+* {										
+  margin:0px;							
+  padding:0px;
+}
 #container{								/* div container = includes the whole structure of the body */
 	position: relative;
 	width: 85%;
 	margin: 0 auto;
+
 }
 
 #pageHeader{
@@ -10,20 +15,55 @@
 
 #pageHeader img{						/*set the position and size of the logo */
 	position: relative;
-	width: 400px;
-	height: 130px;
-	right: 4%;
-	top: 15px;
+	width: 300px;
+	height: 110px;
+	right: 3%;
+	top: 22px;
 
 }
 
 #pageHeader h2{							/*set the position of the text in the header */
 	position: relative;
 	text-align: center;
-	bottom: 85px;
-	left: 10%;
+	bottom: 50px;
+	left: 4%;
+	font-size: 20pt;
+
 }
 
 #navBar{
+	position: relative;					/* set the position of the navigation bar and remove the space between the two div's*/ 
+	white-space: nowrap;					
+	background-color: #795548;
+	column-width: 30pt;
+	
+	
+}
 
+select{
+
+}
+
+ul{
+	list-style-type: none;				/* remove the points of the list element and add a font size */
+	font-size: 15pt;
+	
+	
+
+}
+
+li{										/* set the navBar elements on a line and changed the position with margin and padding */
+	display: inline-block; 				
+	margin: 0.4em;
+	padding: 4px;
+
+
+	
+}
+
+li a{									/* changed the color of the Text elements into white and remove the underline */
+	color: white;
+	text-decoration: none;
+	
+	
 }
